@@ -19,8 +19,17 @@ img { border: 0; }
 	background-color: #fff;
 	height: 5.5em;
 	}
+#header h4 { 	
+	margin: 0;
+	color: #000;
+	font-size: 1.8em;
+	font-weight: normal;
+	cursor: default;
+	vertical-align:top;
+	}
 #header h1 { 	
 	margin: 0;
+	margin-left: 260px;
 	color: #000;
 	font-size: 1.8em;
 	font-weight: normal;
@@ -29,6 +38,7 @@ img { border: 0; }
 	}	
 #header h2 { 	
 	margin: 0;
+	margin-left: 260px;
 	color: #000;
 	font-size: 1.1em;
 	padding-left: 1px;
@@ -60,6 +70,11 @@ img { border: 0; }
 	background-color:#aaa;
 	*/
 }
+
+#header a {
+	text-decoration: none;
+}
+
 #buttons {
 	margin: 0 auto;
 	width: 880px;
